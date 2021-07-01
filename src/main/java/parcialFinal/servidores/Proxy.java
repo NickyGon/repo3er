@@ -47,14 +47,15 @@ public class Proxy implements iClusterServer {
 
     @Override
     public void registrar(Usuario usuario) {
-        usuarioMapSave.put(usuario.getId(),usuario);
+        usuarioMapSave.put(usuario.getPassword(),usuario);
     }
 
     @Override
     public void login(String user, String password) {
         entry++;
         usuarioLogin.put(entry,user);
-        if (usuarioMapSave.containsValue(password) && usuarioMapSave.get(password).getUser().equals(user)){
+
+        if (usuarioMapSave.containsKey(password) && usuarioMapSave.get(password).getUser().equals(user)){
             System.out.println("***Su acceso ha sido correcto, "+usuarioMapSave.get(password).getUser());
             usuarioAccessMap.put(user,true);
             for (Map.Entry<Integer,String> mapEntry: usuarioLogin.entrySet()){

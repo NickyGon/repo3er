@@ -1,14 +1,14 @@
 package parcialFinal.Bridge;
 
 
-public class SistemaColegio implements iSistemasControl{
+public class SistemaEscuela implements iSistemasControl{
     private String nombre;
     private int capacidad;
     private Estudiante[] estudiantes;
     private String requisitos;
 
 
-    public SistemaColegio(String nombre, int capacidad, Estudiante[] estudiantes, String requisitos) {
+    public SistemaEscuela(String nombre, int capacidad, Estudiante[] estudiantes, String requisitos) {
         this.nombre = nombre;
         this.capacidad = capacidad;
         this.estudiantes = estudiantes;
@@ -55,10 +55,10 @@ public class SistemaColegio implements iSistemasControl{
     @Override
     public void info() {
         System.out.println("---------------");
-        System.out.println("Colegio "+nombre);
-        System.out.println("Capacidad de estudiantes: "+capacidad);
-        System.out.println("Requisitos: "+requisitos);
-        System.out.println("Estudiantes inscritos: ");
+        System.out.println("Escuela "+nombre);
+        System.out.println("Capacidad de alumnos total: "+capacidad);
+        System.out.println("Requisitos de entrada: "+requisitos);
+        System.out.println("Alumnos inscritos: ");
         for (Estudiante estudiante: estudiantes){
             System.out.print("-");
             estudiante.info();

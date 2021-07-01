@@ -1,10 +1,9 @@
 package parcialFinal.Bridge;
 
-public class Twitter implements iRedesSociales{
+public class Whatsapp implements iRedesSociales{
     @Override
     public void showData(iSistemasControl sistemasControl) {
-
-        System.out.println("*****Integrando a Twitter***** ");
+        System.out.println("****Integrando a Whatsapp!****");
         sistemasControl.info();
     }
 }

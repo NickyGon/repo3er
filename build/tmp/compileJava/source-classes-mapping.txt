@@ -40,8 +40,8 @@ bridge/basic/ConcreteImplementorB.java
  bridge.basic.ConcreteImplementorB
 parcialFinal/celulares/Sony.java
  parcialFinal.celulares.Sony
-parcialFinal/Bridge/SistemaColegio.java
- parcialFinal.Bridge.SistemaColegio
+parcialFinal/celulares/VidrioTemplado.java
+ parcialFinal.celulares.VidrioTemplado
 parcialFinal/cuadratracks/Diesel.java
  parcialFinal.cuadratracks.Diesel
 visitor/basic/ConcreteElement.java
@@ -70,14 +70,14 @@ parcialFinal/servidores/Server1.java
  parcialFinal.servidores.Server1
 parcialFinal/cuadratracks/iCuadratracks.java
  parcialFinal.cuadratracks.iCuadratracks
-parcialFinal/servidores/Client.java
- parcialFinal.servidores.Client
+parcialFinal/Bridge/Whatsapp.java
+ parcialFinal.Bridge.Whatsapp
 visitor/basic/ConcreteElement2.java
  visitor.basic.ConcreteElement2
 parcialFinal/visitor/Client.java
  parcialFinal.visitor.Client
-parcialFinal/Bridge/Facebook.java
- parcialFinal.Bridge.Facebook
+proxy/basic/iSubject.java
+ proxy.basic.iSubject
 bridge/basic/ConcreteAbstraction.java
  bridge.basic.ConcreteAbstraction
 parcialFinal/celulares/Cliente.java
@@ -116,17 +116,25 @@ decorator/basic/Component.java
  decorator.basic.Component
 parcialFinal/cuadratracks/GasolinaEspecial.java
  parcialFinal.cuadratracks.GasolinaEspecial
-parcialFinal/servidores/Proxy.java
- parcialFinal.servidores.Proxy
-parcialFinal/Bridge/Client.java
- parcialFinal.Bridge.Client
+parcialFinal/Bridge/Facebook.java
+ parcialFinal.Bridge.Facebook
+visitor/basic/ConcreteElement3.java
+ visitor.basic.ConcreteElement3
 visitor/basic/iVisit.java
  visitor.basic.iVisit
 adapter/basic/ConcreteObject.java
  adapter.basic.ConcreteObject
-proxy/basic/iSubject.java
- proxy.basic.iSubject
-parcialFinal/celulares/VidrioTemplado.java
- parcialFinal.celulares.VidrioTemplado
-visitor/basic/ConcreteElement3.java
- visitor.basic.ConcreteElement3
+parcialFinal/Bridge/SistemaEscuela.java
+ parcialFinal.Bridge.SistemaEscuela
+parcialFinal/Bridge/Twitter.java
+ parcialFinal.Bridge.Twitter
+parcialFinal/Bridge/SistemaColegio.java
+ parcialFinal.Bridge.SistemaColegio
+parcialFinal/Bridge/SistemaUniversidad.java
+ parcialFinal.Bridge.SistemaUniversidad
+parcialFinal/Bridge/Client.java
+ parcialFinal.Bridge.Client
+parcialFinal/servidores/Proxy.java
+ parcialFinal.servidores.Proxy
+parcialFinal/servidores/Client.java
+ parcialFinal.servidores.Client
