@@ -54,16 +54,15 @@ public class Proxy implements iClusterServer {
     public void login(String user, String password) {
         entry++;
         usuarioLogin.put(entry,user);
-
         if (usuarioMapSave.containsKey(password) && usuarioMapSave.get(password).getUser().equals(user)){
             System.out.println("***Su acceso ha sido correcto, "+usuarioMapSave.get(password).getUser());
             usuarioAccessMap.put(user,true);
             for (Map.Entry<Integer,String> mapEntry: usuarioLogin.entrySet()){
                 if (mapEntry.getValue().equals(usuarioMapSave.get(password).getUser()) && !prime(mapEntry.getKey())){
-                    System.out.println("Ingreso en posición de numero no primo, se lo llevará al servidor 2");
+                    System.out.println("Ingreso en posición par, se lo llevará al servidor 2");
                     server2Users.login(user,password);
                 } else if (mapEntry.getValue().equals(usuarioMapSave.get(password).getUser()) && prime(mapEntry.getKey())){
-                    System.out.println("Ingreso en posición de numero primo, se lo llevará al servidor 1");
+                    System.out.println("Ingreso en posición impar, se lo llevará al servidor 1");
                     server1Users.login(user,password);
                 }
             }
