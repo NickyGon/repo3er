@@ -3,12 +3,12 @@ package parcialFinal.servidores;
 public class Usuario {
     private String user;
     private String password;
-    private String email;
+    private String id;
 
-    public Usuario(String user, String password, String email) {
+    public Usuario(String user, String password, String id) {
         this.user = user;
         this.password = password;
-        this.email = email;
+        this.id = id;
     }
 
     public String getUser() {
@@ -27,17 +27,17 @@ public class Usuario {
         this.password = password;
     }
 
-    public String getEmail() {
-        return email;
+    public String getId() {
+        return id;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public void showInfo(){
         System.out.println("Username: "+user);
         System.out.println("Password: "+password);
-        System.out.println("Email: "+email);
+        System.out.println("Email: "+ id);
     }
 }

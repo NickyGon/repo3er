@@ -1,122 +1,132 @@
-proxy/basic/Proxy.java
- proxy.basic.Proxy
 decorator/basic/DecoratorConcrete.java
  decorator.basic.DecoratorConcrete
 adapter/basic/ConcreteAdapter.java
  adapter.basic.ConcreteAdapter
 bridge/basic/Client.java
  bridge.basic.Client
+parcialFinal/Bridge/iSistemasControl.java
+ parcialFinal.Bridge.iSistemasControl
+parcialFinal/visitor/iVisitor.java
+ parcialFinal.visitor.iVisitor
+parcialFinal/visitor/iDepartment.java
+ parcialFinal.visitor.iDepartment
+parcialFinal/celulares/Samsung.java
+ parcialFinal.celulares.Samsung
 bridge/basic/iAbstraction.java
  bridge.basic.iAbstraction
-visitor/basic/ConcreteElement2.java
- visitor.basic.ConcreteElement2
 decorator/basic/Client.java
  decorator.basic.Client
-bridge/basic/ConcreteAbstraction.java
- bridge.basic.ConcreteAbstraction
+parcialFinal/Bridge/iRedesSociales.java
+ parcialFinal.Bridge.iRedesSociales
 bridge/basic/iImplementor.java
  bridge.basic.iImplementor
-adapter/basic/ConcreteAdapter2.java
- adapter.basic.ConcreteAdapter2
+parcialFinal/visitor/Turista.java
+ parcialFinal.visitor.Turista
 bridge/basic/ConcreteImplementorA.java
  bridge.basic.ConcreteImplementorA
+visitor/basic/ConcreteVisitor.java
+ visitor.basic.ConcreteVisitor
+parcialFinal/celulares/Carcasa.java
+ parcialFinal.celulares.Carcasa
+parcialFinal/cuadratracks/cuadraElectrico.java
+ parcialFinal.cuadratracks.cuadraElectrico
+parcialFinal/servidores/iClusterServer.java
+ parcialFinal.servidores.iClusterServer
+visitor/basic/Client.java
+ visitor.basic.Client
+parcialFinal/cuadratracks/Gasolina.java
+ parcialFinal.cuadratracks.Gasolina
+bridge/basic/ConcreteImplementorB.java
+ bridge.basic.ConcreteImplementorB
+parcialFinal/celulares/Sony.java
+ parcialFinal.celulares.Sony
+parcialFinal/Bridge/SistemaColegio.java
+ parcialFinal.Bridge.SistemaColegio
+parcialFinal/cuadratracks/Diesel.java
+ parcialFinal.cuadratracks.Diesel
+visitor/basic/ConcreteElement.java
+ visitor.basic.ConcreteElement
+parcialFinal/celulares/iCelular.java
+ parcialFinal.celulares.iCelular
+parcialFinal/celulares/Decorando.java
+ parcialFinal.celulares.Decorando
+decorator/basic/DecoratorConcrete2.java
+ decorator.basic.DecoratorConcrete2
+parcialFinal/visitor/SantaCruz.java
+ parcialFinal.visitor.SantaCruz
+parcialFinal/Bridge/Estudiante.java
+ parcialFinal.Bridge.Estudiante
+parcialFinal/visitor/LaPaz.java
+ parcialFinal.visitor.LaPaz
+proxy/basic/Client.java
+ proxy.basic.Client
+parcialFinal/cuadratracks/CuadraAdaptadoElectrico.java
+ parcialFinal.cuadratracks.CuadraAdaptadoElectrico
+parcialFinal/celulares/Apple.java
+ parcialFinal.celulares.Apple
+proxy/basic/Proxy.java
+ proxy.basic.Proxy
+parcialFinal/servidores/Server1.java
+ parcialFinal.servidores.Server1
+parcialFinal/cuadratracks/iCuadratracks.java
+ parcialFinal.cuadratracks.iCuadratracks
+parcialFinal/servidores/Client.java
+ parcialFinal.servidores.Client
+visitor/basic/ConcreteElement2.java
+ visitor.basic.ConcreteElement2
+parcialFinal/visitor/Client.java
+ parcialFinal.visitor.Client
+parcialFinal/Bridge/Facebook.java
+ parcialFinal.Bridge.Facebook
+bridge/basic/ConcreteAbstraction.java
+ bridge.basic.ConcreteAbstraction
+parcialFinal/celulares/Cliente.java
+ parcialFinal.celulares.Cliente
+adapter/basic/ConcreteAdapter2.java
+ adapter.basic.ConcreteAdapter2
 proxy/basic/RealSubject.java
  proxy.basic.RealSubject
 adapter/basic/ConcreteAdapterObject.java
  adapter.basic.ConcreteAdapterObject
+parcialFinal/servidores/Server2.java
+ parcialFinal.servidores.Server2
+parcialFinal/visitor/Cochabamba.java
+ parcialFinal.visitor.Cochabamba
 adapter/basic/Client.java
  adapter.basic.Client
-visitor/basic/ConcreteVisitor.java
- visitor.basic.ConcreteVisitor
-visitor/basic/Client.java
- visitor.basic.Client
+parcialFinal/cuadratracks/Client.java
+ parcialFinal.cuadratracks.Client
 decorator/basic/ConcreteComponent.java
  decorator.basic.ConcreteComponent
-bridge/basic/ConcreteImplementorB.java
- bridge.basic.ConcreteImplementorB
 adapter/basic/iAdapter.java
  adapter.basic.iAdapter
+parcialFinal/celulares/MemoriaExterna.java
+ parcialFinal.celulares.MemoriaExterna
+parcialFinal/cuadratracks/iCuadratracksElec.java
+ parcialFinal.cuadratracks.iCuadratracksElec
 visitor/basic/iElement.java
  visitor.basic.iElement
 decorator/basic/Decorator.java
  decorator.basic.Decorator
-visitor/basic/ConcreteElement.java
- visitor.basic.ConcreteElement
 adapter/basic/ConcreteAdapter3.java
  adapter.basic.ConcreteAdapter3
-decorator/basic/DecoratorConcrete2.java
- decorator.basic.DecoratorConcrete2
+parcialFinal/servidores/Usuario.java
+ parcialFinal.servidores.Usuario
 decorator/basic/Component.java
  decorator.basic.Component
-proxy/basic/Client.java
- proxy.basic.Client
+parcialFinal/cuadratracks/GasolinaEspecial.java
+ parcialFinal.cuadratracks.GasolinaEspecial
+parcialFinal/servidores/Proxy.java
+ parcialFinal.servidores.Proxy
+parcialFinal/Bridge/Client.java
+ parcialFinal.Bridge.Client
 visitor/basic/iVisit.java
  visitor.basic.iVisit
 adapter/basic/ConcreteObject.java
  adapter.basic.ConcreteObject
 proxy/basic/iSubject.java
  proxy.basic.iSubject
-visitor/basic/ConcreteElement3.java
- visitor.basic.ConcreteElement3
-parcialFinal/cuadratracks/iCuadratracksElec.java
- parcialFinal.cuadratracks.iCuadratracksElec
-parcialFinal/cuadratracks/iCuadratracks.java
- parcialFinal.cuadratracks.iCuadratracks
-parcialFinal/cuadratracks/Client.java
- parcialFinal.cuadratracks.Client
-parcialFinal/cuadratracks/GasolinaEspecial.java
- parcialFinal.cuadratracks.GasolinaEspecial
-parcialFinal/visitor/Client.java
- parcialFinal.visitor.Client
-parcialFinal/cuadratracks/Gasolina.java
- parcialFinal.cuadratracks.Gasolina
-parcialFinal/cuadratracks/Diesel.java
- parcialFinal.cuadratracks.Diesel
-parcialFinal/Bridge/Client.java
- parcialFinal.Bridge.Client
-parcialFinal/celulares/Cliente.java
- parcialFinal.celulares.Cliente
-parcialFinal/cuadratracks/cuadraElectrico.java
- parcialFinal.cuadratracks.cuadraElectrico
-parcialFinal/cuadratracks/CuadraAdaptadoElectrico.java
- parcialFinal.cuadratracks.CuadraAdaptadoElectrico
-parcialFinal/celulares/Apple.java
- parcialFinal.celulares.Apple
-parcialFinal/celulares/Sony.java
- parcialFinal.celulares.Sony
-parcialFinal/celulares/MemoriaExterna.java
- parcialFinal.celulares.MemoriaExterna
-parcialFinal/celulares/Samsung.java
- parcialFinal.celulares.Samsung
-parcialFinal/celulares/Carcasa.java
- parcialFinal.celulares.Carcasa
-parcialFinal/celulares/iCelular.java
- parcialFinal.celulares.iCelular
-parcialFinal/celulares/Decorando.java
- parcialFinal.celulares.Decorando
 parcialFinal/celulares/VidrioTemplado.java
  parcialFinal.celulares.VidrioTemplado
-parcialFinal/visitor/SantaCruz.java
- parcialFinal.visitor.SantaCruz
-parcialFinal/visitor/Turista.java
- parcialFinal.visitor.Turista
-parcialFinal/visitor/LaPaz.java
- parcialFinal.visitor.LaPaz
-parcialFinal/visitor/iVisitor.java
- parcialFinal.visitor.iVisitor
-parcialFinal/visitor/Cochabamba.java
- parcialFinal.visitor.Cochabamba
-parcialFinal/visitor/iDepartment.java
- parcialFinal.visitor.iDepartment
-parcialFinal/servidores/Server2.java
- parcialFinal.servidores.Server2
-parcialFinal/servidores/Server1.java
- parcialFinal.servidores.Server1
-parcialFinal/servidores/Usuario.java
- parcialFinal.servidores.Usuario
-parcialFinal/servidores/iClusterServer.java
- parcialFinal.servidores.iClusterServer
-parcialFinal/servidores/Proxy.java
- parcialFinal.servidores.Proxy
-parcialFinal/servidores/Client.java
- parcialFinal.servidores.Client
+visitor/basic/ConcreteElement3.java
+ visitor.basic.ConcreteElement3
