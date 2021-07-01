@@ -66,16 +66,16 @@ parcialFinal/cuadratracks/Client.java
  parcialFinal.cuadratracks.Client
 parcialFinal/cuadratracks/GasolinaEspecial.java
  parcialFinal.cuadratracks.GasolinaEspecial
-parcialFinal/proxy/Client.java
- parcialFinal.proxy.Client
+parcialFinal/visitor/Client.java
+ parcialFinal.visitor.Client
 parcialFinal/cuadratracks/Gasolina.java
  parcialFinal.cuadratracks.Gasolina
 parcialFinal/cuadratracks/Diesel.java
  parcialFinal.cuadratracks.Diesel
 parcialFinal/Bridge/Client.java
  parcialFinal.Bridge.Client
-parcialFinal/visitor/Client.java
- parcialFinal.visitor.Client
+parcialFinal/celulares/Cliente.java
+ parcialFinal.celulares.Cliente
 parcialFinal/cuadratracks/cuadraElectrico.java
  parcialFinal.cuadratracks.cuadraElectrico
 parcialFinal/cuadratracks/CuadraAdaptadoElectrico.java
@@ -96,5 +96,27 @@ parcialFinal/celulares/Decorando.java
  parcialFinal.celulares.Decorando
 parcialFinal/celulares/VidrioTemplado.java
  parcialFinal.celulares.VidrioTemplado
-parcialFinal/celulares/Cliente.java
- parcialFinal.celulares.Cliente
+parcialFinal/visitor/SantaCruz.java
+ parcialFinal.visitor.SantaCruz
+parcialFinal/visitor/Turista.java
+ parcialFinal.visitor.Turista
+parcialFinal/visitor/LaPaz.java
+ parcialFinal.visitor.LaPaz
+parcialFinal/visitor/iVisitor.java
+ parcialFinal.visitor.iVisitor
+parcialFinal/visitor/Cochabamba.java
+ parcialFinal.visitor.Cochabamba
+parcialFinal/visitor/iDepartment.java
+ parcialFinal.visitor.iDepartment
+parcialFinal/servidores/Server2.java
+ parcialFinal.servidores.Server2
+parcialFinal/servidores/Server1.java
+ parcialFinal.servidores.Server1
+parcialFinal/servidores/Usuario.java
+ parcialFinal.servidores.Usuario
+parcialFinal/servidores/iClusterServer.java
+ parcialFinal.servidores.iClusterServer
+parcialFinal/servidores/Proxy.java
+ parcialFinal.servidores.Proxy
+parcialFinal/servidores/Client.java
+ parcialFinal.servidores.Client

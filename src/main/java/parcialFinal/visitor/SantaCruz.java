@@ -54,7 +54,12 @@ public class SantaCruz implements iDepartment{
     public void setDineroTurismo(int dineroTurismo) {
         this.dineroTurismo = dineroTurismo;
     }
-
+    public void info(){
+        System.out.println("# Provincias: "+numeroProv);
+        System.out.println("Habitantes: "+nHabitantes);
+        System.out.println("Clima: "+clima);
+        System.out.println("Dinero Por Turismo: Bs"+dineroTurismo);
+    }
     @Override
     public void viajar(iVisitor visitante) {
         visitante.viajar(this);
